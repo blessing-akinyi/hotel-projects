@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>brainstorm</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		header{
+			width:100%;
+			height:10vh;
+			background-color:lightgray;
+			justify-content:space-between;
+			display:flex;
+			align-items:center;
+		}
+		ul{
+		 display:flex;
+		 gap:30px;
+		}
+		ul li{
+			colour:red;
+			list-style:none;
+			text-align:center;
+		}
+		ul li a{
+			text-decoration:none;
+			padding:5px;
+			border-radius:20px;
+		}
+		ul li a:hover{
+		color:yellow;
+	}
+
+	.hero{
+		background-size:cover;
+		background-position: center;
+		width:100%;
+		height:90vh;
+		display:flex;
+		align-items:center;
+		justify-content: center;
+		font-size: 40px;
+		}
+		img{
+			width:100%;
+			height:20vh;
+		}
+		.ryan{
+			display:flex;
+			gap:30px;
+		}
+		footer{
+			background-color:darkkhaki;
+			background-position: center;
+			justify-content:centre;
+			align-items: center;
+			width: 100%;
+			height: 30vh;
+			display: flex;
+		}
+		.rat{
+			display:flex;
+			align-items:center;
+			gap:30px;
+		}
+		.bi-whatsapp{
+		     color:green;
+		}
+		.bi-whatsapp:hover{
+		cursor:pointer;
+		    color:blue;
+		}
+		.bi-youtube{
+			color:red;
+		}
+		.bi-youtube:hover{
+			cursor:pointer;
+			color:yellow;
+		}
+		.bi-twitter{
+		color:green;
+		}
+		.bi-twitter:hover{
+		cursor:pointer;
+		color:blue;
+	}
+	.bi-telephone-fill{
+		color: yellow;
+	}
+	.bi-telephone-fill:hover{
+		cursor: pointer;
+		color: whitesmoke;
+	}
+	.section2{
+		color:brown;
+		display:flex;
+		gap:240px;
+		height:60vh;
+		width:100%;
+	}
+	.redy{
+		height: 60vh;
+		width: 80vh;
+	}
+	.section3{
+		color: green;
+		display: flex;
+		justify-content: center;
+		gap:280px;
+		height:40vh;
+		width:100%;
+	}
+	.toping{
+		height: 60vh;
+		width: 80vh;
+	}
+	.tyu{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.tyr{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.tred{
+         background-image:url(hotel1.jpg);
+         background-size:cover;
+         display: flex;
+         height: 70vh;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+         font-size: 40px;
+		}
+		.puppy{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	.wait{
+     	border-radius: 50%;
+       justify-content: center;
+       align-items: center;
+       height: 30px;
+       display: flex;
+       width: 30px;
+       background-color: blue;
+      transition: transform 0.2s;
+
+     }
+     	.wait:hover{
+        transform:scale(1.7);
+     }
+     .rally{
+     	border-radius: 50%;
+       align-items: center;
+       justify-content: center;
+       height: 30px;
+       display: flex;
+       width: 30px;
+       background-color:brown;
+      transition: transform 0.2s;
+     }
+     .rally:hover{
+      transform:scale(1.7);
+     }
+     .catch{
+     	border-radius: 50%;
+
+       justify-content: center;
+       align-items: center;
+       height: 30px;
+       display: flex;
+       width: 30px;
+       background-color:lightcoral;
+      transition: transform 0.2s;
+     }
+     .catch:hover{
+       transform:scale(1.8);
+     }
+		.overlay{
+			background-color:rgba(0, 0, 70, 0.6);
+			display:flex;
+			color:darkblue;
+			height:90vh;
+			width:100%;
+      align-items:center;
+
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<div>
+		<h1>Harborlight</h1>
+	</div>
+	
+			<div>
+		<ul>
+			<li><a href="winning.html">home</a></li>
+			<li><a href="hotel.html">about</a></li>
+			<li><a href="home.html">services</a></li>
+			<li><a href="stles.html">booking</a></li>
+		</ul>
+		<div class="wait">
+            <i class="bi-whatsapp"onclick="openwhatsapp()"></i>
+            </div>
+            <div class="rally">
+             <i class="bi-instagram"onclick="openinstagram()"></i>
+           </div>
+           <div class="catch">
+              <i class="bi-facebook"onclick="openfacebook()"></i>
+        </div>
+		</div>
+	</div>
+</header>
+<section class="tred">
+          <div style="justify-content:center;align-items: center;font-size: 40px;height: 20vh;margin-bottom: 20vh;">
+		<p>Hotel for family</p><br>
+		</div>
+		<div> 
+       <button>
+	<ul>
+		<li><a href="stles.html">booking</a></li>
+		</ul>
+		</button>
+	</div>
+	<div style="margin-top:20vh;">
+		<p>all year round</p><br>
+    </div>
+		
+	</div>
+</section>
+	</section>
+	<h1 style="justify-content: center;display: flex;align-items: center;">hotel bookings/prices</h1>
+	<section style="justify-content: center;display: flex;border-radius: 10px;gap: 30px;padding: 20px;background-color:darkgray;">
+	<div>
+	<img style="width:70vh;height:40vh;"src="fa1.jpg"alt="image here">
+		<h1>can be accessed through</h1>
+		<p>whatsapp-07342423432</p>
+		<p>facebook @ryantech</p>
+		<p>instagram wonder</p>	
+		</div>
+		<div>
+		<img style="width:70vh;height: 40vh;"src="fa2.jpg"alt="image here">
+		<h1>hotels prices</h1>
+		<p>2000 per room</p>
+		<p>1500 a day</p>
+		<p>3500 with family</p>	
+		</div>
+		<div>
+		<img style="width:70vh;height: 40vh;"  src="fa3.jpg"alt="image here">
+		<h1>hotel is located</h1>
+		<p>manga plaza 4th floor</p>
+		<p>nairobi CBD</p>
+		<p>nyerere road</p>	
+		</div>
+	</section>
+	    <section>
+	        <h2>Our Gallery</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<div class="row">
+						<div class="col-12 mb-4">
+							<a href="img/gallery/g1.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="love2.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-12 mb-4">
+							<a href="img/gallery/g2.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="love4.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-sm-7 mb-4">
+							<a href="img/gallery/g3.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="love5.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-5 mb-4">
+							<a href="img/gallery/g4.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="love6.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 mb-4">
+							<a href="img/gallery/g5.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="love7.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-7 mb-4">
+							<a href="img/gallery/g6.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="tree.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-5 mb-4">
+							<a href="img/gallery/g7.png" class="img-gal card-img">
+								<div class="single-imgs relative">		
+									<div class="overlay overlay-bg"></div>
+									<div class="relative">				
+										<img class="card-img rounded-0" src="very.jpg" alt="">		
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section3">
+		<div>
+			<h1>hotels with their prices</h1>
+			<p>room one:1200</p>
+			<p>room2:1500 per person</p>
+			<p>room3:1800 per guest</p>
+			<p>room4:2500 per guest</p>
+			<p>room5:1700 per guest</p>
+			<p>note that VIPs room are also avaialble</p>
+		</div>
+	</section>
+	<footer style="justify-content:center;display: flex;align-items: center;">
+		<h1>come and enjoy our services</h1>
+	</footer>
+	<footer class="puppy">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-3 mb-5">
+            <ul class="list-unstyled link">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Help</a></li>
+             <li><a href="#">Rooms</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <ul class="list-unstyled link">
+              <li><a href="#">Our Location</a></li>
+              <li><a href="#">The Hosts</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Restaurant</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5 pr-md-5 contact-info">
+            <p><span class="d-block">Address:</span> <span> 98 West 21th Street, Suite 721 New York NY 10016</span></p>
+            <p><span class="d-block">Phone:</span> <span>0723655548</span></p>
+            <p><span class="d-block">Email:</span> <span> info@yourdomain.com</span></p>
+          </div>
+          <div class="col-md-3 mb-5">
+            <p>Sign up for our newsletter</p>
+            <form action="#" class="footer-newsletter">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your email...">
+                <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row bordertop pt-5">
+          <p class="col-md-6 text-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            
+          <p class="col-md-6 text-right social">
+            <a href="#"><span class="fa fa-tripadvisor"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
